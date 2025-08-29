@@ -6,7 +6,6 @@
 '''
 
 import pandas as pd
-import numpy as np
 
 acc_data = pd.read_csv('../docs/accountancy.csv')
 mean_salaries = acc_data.groupby(['Type', 'Executor'], as_index=False).aggregate({'Salary': 'mean'})
