@@ -14,4 +14,5 @@ df.plot()
 # Возможные варианты:
 # df.income.plot()
 # sns.lineplot(data=df)
+# sns.lineplot(x=df.index, y=df.income)
 # plt.plot(df.index, df.income)
